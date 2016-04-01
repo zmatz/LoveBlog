@@ -1,0 +1,17 @@
+.cita {
+	padding: 30px;
+	p {
+		border-left: 10px solid $light_orange;
+		padding-left: 15px;
+		color: $light_orange;
+	
+	}
+}
+.profile_pic {
+	background: none repeat scroll 0 0 $white;
+	border: 1px solid $humo;
+	float: left;
+	margin-bottom: 15px;
+	margin-right: 15px;
+	padding: 3px;
+}

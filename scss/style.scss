@@ -1,0 +1,118 @@
+@charset 'UTF-8';
+@import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic');
+@import 'base/_base';
+@import 'utils/_variables';
+@import 'utils/_mixins';
+@import 'pages/_single';
+@import 'pages/_blog';
+@import 'pages/_portfolio';
+@import 'pages/_contact';
+@import 'layout/_responsive';
+@import 'layout/_header';
+@import 'layout/_sliders';
+@import 'layout/_sidebar';
+@import 'layout/_footer';
+
+/*----HOME----*/
+.portfolio h2 {
+	background: $engrane no-repeat scroll left center rgba(0, 0, 0, 0);
+	padding-left: 68px;
+}
+.offer h2 {
+	background: $palomita no-repeat scroll left center rgba(0, 0, 0, 0);
+	padding-left: 70px;
+}
+.follow h2 {
+	background: $avatar no-repeat scroll left center rgba(0, 0, 0, 0);
+	padding-left: 60px;
+}
+.service_area {
+	margin-top: 25px;
+}
+.single_service_container {
+	margin-left: -20px;
+}
+.single_service {
+	width: 300px;
+	margin-left: 20px;
+	a {
+		background: none repeat scroll 0 0 $light_orange;
+		color: $white;
+		display: block;
+		font-family: $bebas;
+		font-size: 12px;
+		margin-top: 20px;
+		padding: 5px 12px;
+		width: 30px;
+	}
+	h2 {
+		color: $light_orange;
+		font-size: 16px;
+		font-family: $bebas;
+	}
+}
+.from_blog {
+	margin-top: 50px;
+	span {
+		margin-left: -120px;
+	}
+	h2 {
+		background: $barra1 repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+		color: $dark_orange;
+		font-family: $bebas;
+		font-size: 18px;
+		margin-left: 120px;
+		line-height: 20px;
+		margin-bottom: 30px;
+	}
+}
+.single_blogpost_container {
+	margin-left: -18px;
+}
+.single_work_container {
+	margin-left: -18px;
+}
+.single_blog_post {
+	margin-bottom: 30px;
+	width: 220px;
+	margin-left:18px;
+
+	h3 {
+		@extend %titulos_h3;
+	}
+	h4 {
+		@extend %titulos_h4;
+	}
+}
+
+.single_work {
+	@extend .single_blog_post;
+}
+
+.blog_post_meta {
+	border-bottom: 1px solid $humo;
+	border-left: 1px solid $humo;
+	border-right: 1px solid $humo;
+	padding-left: 25px;
+	padding-top: 15px;
+}
+.from_works {
+	margin-top: 30px;
+	h2 {
+		background: $barra1 repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+		color: $dark_orange;
+		font-family: $bebas;
+		font-size: 18px;
+		margin-left: 140px;
+		line-height: 20px;
+		margin-bottom: 30px;
+	}
+	span {
+		margin-left: -140px;
+	}
+}
+
+.single_post {
+	margin-bottom: 50px;
+}
+

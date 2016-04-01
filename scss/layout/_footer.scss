@@ -1,0 +1,58 @@
+.footer_area {
+	background: none repeat scroll 0 0 $rose;
+	margin-top: 40px;
+}
+.footer {
+	width: 970px;
+	background: none repeat scroll 0 0 $light_orange;
+	border-left: 10px solid $white;
+	border-right: 10px solid $white;
+	margin: 0 auto;
+	padding: 20px 0;
+	transition: all 1.3s ease 0s;
+}
+.single_footer_container {
+	margin-left: -25px;
+}
+.single_footer {
+	width: 250px;
+	color: $white;
+	margin-left: 25px;
+	padding: 10px;
+	h2 {
+		font-family: $bebas;
+	}
+}
+.social_area {
+	margin-left: -7px;
+	margin-top: 15px;
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			float: left;
+			a {
+				display: block;
+				margin-left: 7px;
+				padding: 6px 16px;
+				text-indent: -99999px;
+			}
+		}
+	}
+}
+.facebook {
+	background: $redes no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.twitter {
+	background: $redes no-repeat scroll -35px 0 rgba(0, 0, 0, 0);
+}
+.email {
+	background: $redes no-repeat scroll -70px 0 rgba(0, 0, 0, 0);
+}
+.feed {
+	background: $redes no-repeat scroll -105px 0 rgba(0, 0, 0, 0);
+}
+.vimeo {
+	background: $redes no-repeat scroll -140px 0 rgba(0, 0, 0, 0);
+}

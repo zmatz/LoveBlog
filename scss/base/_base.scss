@@ -1,0 +1,127 @@
+@import 'utils/_variables';
+
+::-webkit-input-placeholder {
+	color: $light_orange;
+	font-family: $bebas;
+}
+:-moz-placeholder {
+	color: $light_orange;
+	font-family: $bebas;
+}
+::-moz-placeholder {
+	color: $light_orange;
+	font-family: $bebas;
+}
+:-ms-input-placeholder {
+	color: $light_orange;
+	font-family: $bebas;
+}
+
+
+@font-face {
+	font-family: $bebas;
+	src: $font_2 format('embedded-opentype'), $font_3 format('woff'), $font_4 format('truetype'), $font_5 format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: $helv_neu;
+	src: local('font/HelveticaNeue'), $font_7 format('woff'), $font_8 format('truetype');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: $sans_serif, $open_sans;
+	font-size: 14px;
+	line-height: 20px;
+	color: $casi_black;
+}
+
+//@extend-elements
+%titulos_gral {
+	margin: 0 0 15px;
+	font-family: $bebas;
+}
+
+h2 {
+	@extend %titulos_gral;
+	font-size: 25px;
+	line-height: 30px;
+}
+h3 {
+	color: $dark_grey;
+	font-size: 16px;
+	margin-bottom: 2px;
+	font-family: $bebas;
+}
+h4 {
+	color: $light_orange;
+	font-size: 11px;
+	font-family: $bebas;
+}
+h5 {
+	@extend %titulos_gral;
+}
+h6 {
+	@extend %titulos_gral;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+p {
+	margin-bottom: 20px;
+}
+a {
+	color: $black;
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+.alignleft {
+	float: left;
+	margin-left: 0;
+}
+.aligncenter {
+	display: block;
+	margin: 10px auto;
+}
+.alignright {
+	float: right;
+	margin-left: 10px;
+}
+.floatleft {
+	float: left;
+}
+.floatright {
+	float: right;
+}
+.structure {
+	display: block;
+	margin: 0 auto;
+}
+.fix {
+	overflow: hidden;
+}
+.main_content_area {
+	margin-top: -50px;
+
+}
+.content_area {
+	background: none repeat scroll 0 0 $white;
+	border-left: 10px solid $white;
+	border-right: 10px solid $white;
+}
+.single_content_area {
+	position: relative;
+}
+.single_main_content {
+	@extend .single_content_area;
+	width: 600px;
+}
+
+

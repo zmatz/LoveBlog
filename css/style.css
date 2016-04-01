@@ -1,0 +1,1054 @@
+@charset "UTF-8";
+@import url("http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic");
+/* line 3, ../scss/base/_base.scss */
+::-webkit-input-placeholder {
+  color: #e8663c;
+  font-family: bebasregular;
+}
+
+/* line 7, ../scss/base/_base.scss */
+:-moz-placeholder {
+  color: #e8663c;
+  font-family: bebasregular;
+}
+
+/* line 11, ../scss/base/_base.scss */
+::-moz-placeholder {
+  color: #e8663c;
+  font-family: bebasregular;
+}
+
+/* line 15, ../scss/base/_base.scss */
+:-ms-input-placeholder {
+  color: #e8663c;
+  font-family: bebasregular;
+}
+
+@font-face {
+  font-family: bebasregular;
+  src: url("font/bebas___-webfont.eot") format("embedded-opentype"), url("font/bebas___-webfont.woff") format("woff"), url("font/bebas___-webfont.ttf") format("truetype"), url("font/bebas___-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeue;
+  src: local("font/HelveticaNeue"), url("font/HelveticaNeue.woff") format("woff"), url("font/HelveticaNeue.ttf") format("truetype");
+}
+
+/* line 32, ../scss/base/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 36, ../scss/base/_base.scss */
+body {
+  font-family: sans-serif, open-sans;
+  font-size: 14px;
+  line-height: 20px;
+  color: #414141;
+}
+
+/* line 44, ../scss/base/_base.scss */
+h2, h5, h6 {
+  margin: 0 0 15px;
+  font-family: bebasregular;
+}
+
+/* line 49, ../scss/base/_base.scss */
+h2 {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+/* line 54, ../scss/base/_base.scss */
+h3 {
+  color: #999999;
+  font-size: 16px;
+  margin-bottom: 2px;
+  font-family: bebasregular;
+}
+
+/* line 60, ../scss/base/_base.scss */
+h4 {
+  color: #e8663c;
+  font-size: 11px;
+  font-family: bebasregular;
+}
+
+/* line 71, ../scss/base/_base.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 75, ../scss/base/_base.scss */
+p {
+  margin-bottom: 20px;
+}
+
+/* line 78, ../scss/base/_base.scss */
+a {
+  color: black;
+  text-decoration: none;
+}
+/* line 81, ../scss/base/_base.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 85, ../scss/base/_base.scss */
+.alignleft {
+  float: left;
+  margin-left: 0;
+}
+
+/* line 89, ../scss/base/_base.scss */
+.aligncenter {
+  display: block;
+  margin: 10px auto;
+}
+
+/* line 93, ../scss/base/_base.scss */
+.alignright {
+  float: right;
+  margin-left: 10px;
+}
+
+/* line 97, ../scss/base/_base.scss */
+.floatleft {
+  float: left;
+}
+
+/* line 100, ../scss/base/_base.scss */
+.floatright {
+  float: right;
+}
+
+/* line 103, ../scss/base/_base.scss */
+.structure {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 107, ../scss/base/_base.scss */
+.fix {
+  overflow: hidden;
+}
+
+/* line 110, ../scss/base/_base.scss */
+.main_content_area {
+  margin-top: -50px;
+}
+
+/* line 114, ../scss/base/_base.scss */
+.content_area {
+  background: none repeat scroll 0 0 white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+}
+
+/* line 119, ../scss/base/_base.scss */
+.single_content_area, .single_main_content {
+  position: relative;
+}
+
+/* line 122, ../scss/base/_base.scss */
+.single_main_content {
+  width: 600px;
+}
+
+/* line 1, ../scss/pages/_single.scss */
+.cita {
+  padding: 30px;
+}
+/* line 3, ../scss/pages/_single.scss */
+.cita p {
+  border-left: 10px solid #e8663c;
+  padding-left: 15px;
+  color: #e8663c;
+}
+
+/* line 10, ../scss/pages/_single.scss */
+.profile_pic {
+  background: none repeat scroll 0 0 white;
+  border: 1px solid #dddddd;
+  float: left;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  padding: 3px;
+}
+
+/* line 1, ../scss/pages/_blog.scss */
+.featured {
+  background: url("../images/f_hover.png") no-repeat scroll center;
+}
+
+/* line 5, ../scss/pages/_blog.scss */
+.img_pic, .img_play, .img_file, .img_comilla, .img_eslabon {
+  display: block;
+  height: 75px;
+  left: -85px;
+  position: absolute;
+  width: 75px;
+}
+
+/* line 13, ../scss/pages/_blog.scss */
+.img_pic {
+  background: url("../images/icon1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* line 17, ../scss/pages/_blog.scss */
+.img_play {
+  background: url("../images/icon3.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* line 21, ../scss/pages/_blog.scss */
+.img_file {
+  background: url("../images/icon2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* line 25, ../scss/pages/_blog.scss */
+.img_comilla {
+  background: url("../images/icon4.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* line 29, ../scss/pages/_blog.scss */
+.img_eslabon {
+  background: url("../images/icon6.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* line 34, ../scss/pages/_blog.scss */
+.text_eslabon h2 {
+  color: #e8603c;
+  font-family: bebasregular;
+  font-size: 20px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+/* line 41, ../scss/pages/_blog.scss */
+.text_eslabon h5 {
+  color: #999999;
+  font-family: helvetica;
+  font-size: 10px;
+}
+/* line 46, ../scss/pages/_blog.scss */
+.text_eslabon p {
+  padding: 10px;
+  font-size: 15px;
+}
+
+/* line 51, ../scss/pages/_blog.scss */
+.area_text_central {
+  margin-top: 20px;
+}
+
+/* line 54, ../scss/pages/_blog.scss */
+.side_text {
+  padding: 10px;
+}
+/* line 56, ../scss/pages/_blog.scss */
+.side_text span {
+  color: #e8663c;
+  font-family: bebasregular;
+  font-size: 12px;
+}
+/* line 61, ../scss/pages/_blog.scss */
+.side_text p {
+  color: #999999;
+  margin-bottom: 10px;
+}
+
+/* line 66, ../scss/pages/_blog.scss */
+.text_central {
+  padding: 10px;
+  width: 450px;
+}
+/* line 69, ../scss/pages/_blog.scss */
+.text_central h2 {
+  font-family: bebasregular;
+  font-size: 18px;
+  color: #e8663c;
+}
+/* line 74, ../scss/pages/_blog.scss */
+.text_central p {
+  color: #414141;
+  margin-bottom: 10px;
+}
+
+/* line 79, ../scss/pages/_blog.scss */
+.divider_bar {
+  background: url("../images/post_border_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 13px;
+  margin-top: 25px;
+}
+
+/* line 84, ../scss/pages/_blog.scss */
+.cita_blog {
+  background: url("../images/quote_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  padding: 20px;
+  margin-bottom: 55px;
+}
+/* line 88, ../scss/pages/_blog.scss */
+.cita_blog p {
+  background: url("../images/quote.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+  padding-left: 35px;
+  padding-top: 15px;
+}
+
+/* line 94, ../scss/pages/_blog.scss */
+.pagination {
+  margin-top: 30px;
+}
+/* line 96, ../scss/pages/_blog.scss */
+.pagination ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+/* line 100, ../scss/pages/_blog.scss */
+.pagination ul li {
+  float: left;
+  margin-left: 10px;
+}
+/* line 103, ../scss/pages/_blog.scss */
+.pagination ul li:first-child {
+  margin-left: 0;
+}
+/* line 106, ../scss/pages/_blog.scss */
+.pagination ul li a {
+  display: block;
+  color: white;
+  background: #e8663c;
+  padding: 8px 15px;
+  font-family: bebasregular;
+}
+/* line 112, ../scss/pages/_blog.scss */
+.pagination ul li a:hover {
+  background: #f3af9d;
+}
+
+/* line 120, ../scss/pages/_blog.scss */
+.category_list {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+/* line 124, ../scss/pages/_blog.scss */
+.category_list li a:hover {
+  text-decoration: underline;
+}
+
+/* line 1, ../scss/pages/_contact.scss */
+.cf_container {
+  margin-top: 35px;
+}
+
+/* line 7, ../scss/pages/_contact.scss */
+.address span {
+  color: #e8663c;
+}
+
+/* line 11, ../scss/pages/_contact.scss */
+.cf_txt {
+  border: 1px solid #e8663c !important;
+  height: 30px;
+  width: 60%;
+  outline: none;
+}
+
+/* line 17, ../scss/pages/_contact.scss */
+.cf_email {
+  height: 40px;
+  width: 63%;
+  padding-left: 5px;
+  border: 1px solid #e8663c;
+  outline: none;
+}
+
+/* line 24, ../scss/pages/_contact.scss */
+.cf_msg {
+  border: 1px solid #e8663c;
+  height: 200px;
+  overflow: auto;
+  font-size: 14px;
+  outline: none;
+}
+
+/* line 31, ../scss/pages/_contact.scss */
+.cf_submit {
+  background: none repeat scroll 0 0 #e8663c;
+  border: medium none;
+  color: white;
+  font-family: bebasregular;
+  font-size: 23px;
+  height: 45px;
+  outline: medium none;
+  width: 103%;
+  cursor: pointer;
+}
+/* line 41, ../scss/pages/_contact.scss */
+.cf_submit:hover {
+  transition: background 0.5s ease;
+  background: white;
+  color: #e8663c;
+  border: 1px solid #e8663c;
+}
+
+/* line 1, ../scss/layout/_responsive.scss */
+.structure {
+  width: 940px;
+}
+
+/* line 4, ../scss/layout/_responsive.scss */
+.header {
+  width: 940px;
+}
+
+/* line 7, ../scss/layout/_responsive.scss */
+.footer {
+  width: 940px;
+}
+
+/* line 10, ../scss/layout/_responsive.scss */
+.single_service {
+  width: 300px;
+}
+
+/* line 13, ../scss/layout/_responsive.scss */
+.single_blog_post, .single_work, .single_work {
+  width: 220px;
+  margin-left: 18px;
+}
+
+/* line 16, ../scss/layout/_responsive.scss */
+.single_footer {
+  width: 275px;
+}
+
+/* Contact Desktop*/
+/* line 20, ../scss/layout/_responsive.scss */
+#googleMap {
+  width: 670px;
+  height: 300px;
+}
+
+/* line 25, ../scss/layout/_responsive.scss */
+.address {
+  width: 239px;
+}
+
+/* line 29, ../scss/layout/_responsive.scss */
+.cf {
+  width: 420px;
+}
+
+/* line 33, ../scss/layout/_responsive.scss */
+.cf_msg {
+  width: 100%;
+}
+
+/* Portfolio page style ****************************/
+/* line 39, ../scss/layout/_responsive.scss */
+.portfolio-content {
+  width: 940px;
+}
+
+/* line 43, ../scss/layout/_responsive.scss */
+.portfolio-area {
+  width: 940px;
+}
+/* line 45, ../scss/layout/_responsive.scss */
+.portfolio-area li {
+  width: 220px;
+}
+
+/* line 50, ../scss/layout/_responsive.scss */
+.home-portfolio-text {
+  width: 214px;
+}
+
+/*768px*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Home */
+  /* line 58, ../scss/layout/_responsive.scss */
+  .structure, .header, .footer {
+    width: 750px;
+  }
+
+  /* line 61, ../scss/layout/_responsive.scss */
+  .single_service {
+    width: 236px;
+  }
+
+  /* line 64, ../scss/layout/_responsive.scss */
+  .single_blog_post, .single_work, .single_work {
+    width: 174px;
+  }
+
+  /* line 67, ../scss/layout/_responsive.scss */
+  .single_footer {
+    width: 213px;
+  }
+
+  /* About */
+  /* line 71, ../scss/layout/_responsive.scss */
+  .single_main_content {
+    width: 550px;
+  }
+
+  /* line 74, ../scss/layout/_responsive.scss */
+  .sidebar_responsive {
+    width: 180px;
+  }
+
+  /* Contact */
+  /* line 78, ../scss/layout/_responsive.scss */
+  #googleMap {
+    width: 550px;
+  }
+
+  /* line 81, ../scss/layout/_responsive.scss */
+  .address {
+    width: 170px;
+  }
+
+  /* line 84, ../scss/layout/_responsive.scss */
+  .cf {
+    width: 366px;
+  }
+
+  /* line 87, ../scss/layout/_responsive.scss */
+  .cf_msg {
+    width: 96%;
+  }
+
+  /* Blog */
+  /* line 91, ../scss/layout/_responsive.scss */
+  .side_text {
+    width: 150px;
+  }
+
+  /* line 94, ../scss/layout/_responsive.scss */
+  .text_central {
+    width: 355px;
+  }
+
+  /* Portfolio */
+  /* line 99, ../scss/layout/_responsive.scss */
+  .portfolio-content {
+    width: 750px;
+  }
+
+  /* line 102, ../scss/layout/_responsive.scss */
+  .portfolio-area {
+    width: 750px;
+  }
+  /* line 104, ../scss/layout/_responsive.scss */
+  .portfolio-area li {
+    width: 174px;
+  }
+
+  /* line 108, ../scss/layout/_responsive.scss */
+  .home-portfolio-text {
+    width: 168px;
+  }
+}
+/* 320px */
+@media only screen and (max-width: 767px) {
+  /* Home */
+  /* line 117, ../scss/layout/_responsive.scss */
+  .structure, .header, .footer {
+    width: 300px;
+  }
+
+  /* line 120, ../scss/layout/_responsive.scss */
+  .single_service {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+  /* line 124, ../scss/layout/_responsive.scss */
+  .portfolio h2 {
+    line-height: 24px;
+  }
+
+  /* line 127, ../scss/layout/_responsive.scss */
+  .single_blog_post, .single_work, .single_work {
+    width: 220px;
+    margin-left: 20%;
+  }
+
+  /* line 131, ../scss/layout/_responsive.scss */
+  .single_footer {
+    width: 280px;
+  }
+
+  /* About */
+  /* line 135, ../scss/layout/_responsive.scss */
+  .single_main_content {
+    padding: 5px;
+    width: 290px;
+  }
+
+  /* line 139, ../scss/layout/_responsive.scss */
+  .sidebar_responsive {
+    padding: 5px;
+    width: 290px;
+    margin-top: 20px;
+  }
+
+  /* Contact */
+  /* line 145, ../scss/layout/_responsive.scss */
+  #googleMap {
+    width: 290px;
+    height: 170px;
+  }
+
+  /* line 149, ../scss/layout/_responsive.scss */
+  .address, .cf {
+    padding: 10px;
+    width: 280px;
+  }
+
+  /* line 153, ../scss/layout/_responsive.scss */
+  .cf_msg {
+    width: 96%;
+  }
+
+  /* Blog */
+  /* line 157, ../scss/layout/_responsive.scss */
+  .side_text {
+    width: 75px;
+  }
+
+  /* line 160, ../scss/layout/_responsive.scss */
+  .text_central {
+    width: 175px;
+  }
+
+  /* Portfolio */
+  /* line 165, ../scss/layout/_responsive.scss */
+  .portfolio-content {
+    width: 300px;
+  }
+
+  /* line 168, ../scss/layout/_responsive.scss */
+  .portfolio-area {
+    width: 300px;
+  }
+  /* line 170, ../scss/layout/_responsive.scss */
+  .portfolio-area li {
+    width: 137px;
+  }
+
+  /* line 174, ../scss/layout/_responsive.scss */
+  .home-portfolio-text {
+    width: 131px;
+  }
+}
+/* 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* Home */
+  /* line 183, ../scss/layout/_responsive.scss */
+  .structure, .header, .footer {
+    width: 450px;
+  }
+
+  /* line 186, ../scss/layout/_responsive.scss */
+  .single_service {
+    width: 450px;
+    margin-bottom: 30px;
+  }
+
+  /* line 190, ../scss/layout/_responsive.scss */
+  .portfolio h2 {
+    line-height: 50px;
+  }
+
+  /* line 193, ../scss/layout/_responsive.scss */
+  .single_blog_post, .single_work, .single_work {
+    width: 216px;
+    margin-left: 18px;
+  }
+
+  /* line 197, ../scss/layout/_responsive.scss */
+  .single_footer {
+    width: 430px;
+  }
+
+  /* About */
+  /* line 201, ../scss/layout/_responsive.scss */
+  .single_main_content {
+    padding: 5px;
+    width: 440px;
+  }
+
+  /* line 205, ../scss/layout/_responsive.scss */
+  .sidebar_responsive {
+    padding: 5px;
+    width: 440px;
+    margin-top: 20px;
+  }
+
+  /* Contact */
+  /* line 211, ../scss/layout/_responsive.scss */
+  #googleMap {
+    width: 440px;
+    height: 180px;
+  }
+
+  /* line 215, ../scss/layout/_responsive.scss */
+  .address {
+    width: 120px;
+    padding: 5px;
+  }
+
+  /* line 219, ../scss/layout/_responsive.scss */
+  .cf {
+    width: 290px;
+    padding: 5px;
+  }
+
+  /* line 223, ../scss/layout/_responsive.scss */
+  .cf_msg {
+    width: 96%;
+  }
+
+  /* Blog */
+  /* line 227, ../scss/layout/_responsive.scss */
+  .side_text {
+    width: 115px;
+  }
+
+  /* line 230, ../scss/layout/_responsive.scss */
+  .text_central {
+    width: 285px;
+  }
+
+  /* Portfolio */
+  /* line 235, ../scss/layout/_responsive.scss */
+  .portfolio-content {
+    width: 450px;
+  }
+
+  /* line 238, ../scss/layout/_responsive.scss */
+  .portfolio-area {
+    width: 450px;
+  }
+  /* line 240, ../scss/layout/_responsive.scss */
+  .portfolio-area li {
+    width: 137px;
+  }
+
+  /* line 244, ../scss/layout/_responsive.scss */
+  .home-portfolio-text {
+    width: 131px;
+  }
+}
+/* line 1, ../scss/layout/_header.scss */
+.header {
+  width: 950px;
+  margin: 0 auto;
+}
+
+/* line 7, ../scss/layout/_header.scss */
+.logo span {
+  color: #f3af9d;
+}
+/* line 10, ../scss/layout/_header.scss */
+.logo h1 {
+  font-size: 36px;
+  margin: 30px 0;
+  color: #e8603c;
+  font-family: bebasregular;
+}
+
+/* line 17, ../scss/layout/_header.scss */
+.mainmenu {
+  margin-top: 20px;
+  margin-right: -15px;
+}
+/* line 20, ../scss/layout/_header.scss */
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 24, ../scss/layout/_header.scss */
+.mainmenu ul li {
+  float: left;
+}
+/* line 26, ../scss/layout/_header.scss */
+.mainmenu ul li a {
+  display: block;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: #bcbcbc;
+  font-size: 16px;
+  font-family: bebasregular;
+}
+/* line 33, ../scss/layout/_header.scss */
+.mainmenu ul li a:hover {
+  color: #e8663c !important;
+}
+
+/* line 40, ../scss/layout/_header.scss */
+.current-page-item {
+  color: #e8663c !important;
+}
+
+/* line 43, ../scss/layout/_header.scss */
+.active {
+  color: #e8663c !important;
+}
+
+/* line 46, ../scss/layout/_header.scss */
+.header_bar {
+  background: #f3af9d;
+  min-height: 50px;
+}
+
+/* line 50, ../scss/layout/_header.scss */
+.titulo_header {
+  background: none repeat scroll 0 0 #e8663c;
+  min-height: 50px;
+  margin-bottom: 30px;
+}
+/* line 54, ../scss/layout/_header.scss */
+.titulo_header h1 {
+  color: white;
+  font-family: bebasregular;
+  font-size: 24px;
+  line-height: 45px;
+  padding-left: 10px;
+}
+
+/* line 1, ../scss/layout/_sidebar.scss */
+.sidebar {
+  margin-bottom: 30px;
+  width: 220px;
+}
+/* line 4, ../scss/layout/_sidebar.scss */
+.sidebar h2 {
+  background: url("../images/heading-bg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+  color: #e8603c;
+  font-family: bebasregular;
+  font-size: 15px;
+  line-height: 18px;
+  margin-left: 110px;
+  text-transform: uppercase;
+}
+/* line 12, ../scss/layout/_sidebar.scss */
+.sidebar h2 span {
+  margin-left: -110px;
+}
+
+/* line 17, ../scss/layout/_sidebar.scss */
+.bloque_left {
+  width: 600px;
+}
+
+/* line 1, ../scss/layout/_footer.scss */
+.footer_area {
+  background: none repeat scroll 0 0 #f3af9d;
+  margin-top: 40px;
+}
+
+/* line 5, ../scss/layout/_footer.scss */
+.footer {
+  width: 970px;
+  background: none repeat scroll 0 0 #e8663c;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+  margin: 0 auto;
+  padding: 20px 0;
+  transition: all 1.3s ease 0s;
+}
+
+/* line 14, ../scss/layout/_footer.scss */
+.single_footer_container {
+  margin-left: -25px;
+}
+
+/* line 17, ../scss/layout/_footer.scss */
+.single_footer {
+  width: 250px;
+  color: white;
+  margin-left: 25px;
+  padding: 10px;
+}
+/* line 22, ../scss/layout/_footer.scss */
+.single_footer h2 {
+  font-family: bebasregular;
+}
+
+/* line 26, ../scss/layout/_footer.scss */
+.social_area {
+  margin-left: -7px;
+  margin-top: 15px;
+}
+/* line 29, ../scss/layout/_footer.scss */
+.social_area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 33, ../scss/layout/_footer.scss */
+.social_area ul li {
+  float: left;
+}
+/* line 35, ../scss/layout/_footer.scss */
+.social_area ul li a {
+  display: block;
+  margin-left: 7px;
+  padding: 6px 16px;
+  text-indent: -99999px;
+}
+
+/* line 44, ../scss/layout/_footer.scss */
+.facebook {
+  background: url("../images/social.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* line 47, ../scss/layout/_footer.scss */
+.twitter {
+  background: url("../images/social.png") no-repeat scroll -35px 0 rgba(0, 0, 0, 0);
+}
+
+/* line 50, ../scss/layout/_footer.scss */
+.email {
+  background: url("../images/social.png") no-repeat scroll -70px 0 rgba(0, 0, 0, 0);
+}
+
+/* line 53, ../scss/layout/_footer.scss */
+.feed {
+  background: url("../images/social.png") no-repeat scroll -105px 0 rgba(0, 0, 0, 0);
+}
+
+/* line 56, ../scss/layout/_footer.scss */
+.vimeo {
+  background: url("../images/social.png") no-repeat scroll -140px 0 rgba(0, 0, 0, 0);
+}
+
+/*----HOME----*/
+/* line 17, ../scss/style.scss */
+.portfolio h2 {
+  background: url("../images/portfolio.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+  padding-left: 68px;
+}
+
+/* line 21, ../scss/style.scss */
+.offer h2 {
+  background: url("../images/offer.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+  padding-left: 70px;
+}
+
+/* line 25, ../scss/style.scss */
+.follow h2 {
+  background: url("../images/follow.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+  padding-left: 60px;
+}
+
+/* line 29, ../scss/style.scss */
+.service_area {
+  margin-top: 25px;
+}
+
+/* line 32, ../scss/style.scss */
+.single_service_container {
+  margin-left: -20px;
+}
+
+/* line 35, ../scss/style.scss */
+.single_service {
+  width: 300px;
+  margin-left: 20px;
+}
+/* line 38, ../scss/style.scss */
+.single_service a {
+  background: none repeat scroll 0 0 #e8663c;
+  color: white;
+  display: block;
+  font-family: bebasregular;
+  font-size: 12px;
+  margin-top: 20px;
+  padding: 5px 12px;
+  width: 30px;
+}
+/* line 48, ../scss/style.scss */
+.single_service h2 {
+  color: #e8663c;
+  font-size: 16px;
+  font-family: bebasregular;
+}
+
+/* line 54, ../scss/style.scss */
+.from_blog {
+  margin-top: 50px;
+}
+/* line 56, ../scss/style.scss */
+.from_blog span {
+  margin-left: -120px;
+}
+/* line 59, ../scss/style.scss */
+.from_blog h2 {
+  background: url("../images/heading-bg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+  color: #e8603c;
+  font-family: bebasregular;
+  font-size: 18px;
+  margin-left: 120px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+
+/* line 69, ../scss/style.scss */
+.single_blogpost_container {
+  margin-left: -18px;
+}
+
+/* line 72, ../scss/style.scss */
+.single_work_container {
+  margin-left: -18px;
+}
+
+/* line 75, ../scss/style.scss */
+.single_blog_post, .single_work {
+  margin-bottom: 30px;
+  width: 220px;
+  margin-left: 18px;
+}
+
+/* line 92, ../scss/style.scss */
+.blog_post_meta {
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+
+/* line 99, ../scss/style.scss */
+.from_works {
+  margin-top: 30px;
+}
+/* line 101, ../scss/style.scss */
+.from_works h2 {
+  background: url("../images/heading-bg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+  color: #e8603c;
+  font-family: bebasregular;
+  font-size: 18px;
+  margin-left: 140px;
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+/* line 110, ../scss/style.scss */
+.from_works span {
+  margin-left: -140px;
+}
+
+/* line 115, ../scss/style.scss */
+.single_post {
+  margin-bottom: 50px;
+}

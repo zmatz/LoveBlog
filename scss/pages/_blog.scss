@@ -1,0 +1,127 @@
+.featured {
+	background: $icon_a no-repeat scroll center;
+}
+
+%icon_style {
+	display: block;
+	height: 75px;
+	left: -85px;
+	position: absolute;
+	width: 75px;
+}
+
+.img_pic {
+	@extend %icon_style;
+	background: $icon_pic no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.img_play {
+	@extend %icon_style;
+	background: $icon_play no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.img_file {
+	@extend %icon_style;
+	background: $icon_file no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.img_comilla {
+	@extend %icon_style;
+	background: $icon_comilla no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.img_eslabon {
+	@extend %icon_style;
+	background: $icon_eslabon no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.text_eslabon {
+	h2 {
+		color: $dark_orange;
+		font-family: $bebas;
+		font-size: 20px;
+		margin-bottom: 0;
+		text-transform: uppercase;
+	}
+	h5 {
+		color: $dark_grey;
+		font-family: $helv;
+		font-size: 10px;
+	}
+	p {
+		padding: 10px;
+		font-size: 15px;
+	}
+}
+.area_text_central {
+	margin-top: 20px;
+}
+.side_text {
+	padding: 10px;
+	span {
+		color: $light_orange;
+		font-family: $bebas;
+		font-size: 12px;
+	}
+	p {
+		color: $dark_grey;
+		margin-bottom: 10px;
+	}
+}
+.text_central {
+	padding: 10px;
+	width: 450px;
+	h2 {
+		font-family: $bebas;
+		font-size: 18px;
+		color: $light_orange;
+	}
+	p {
+		color: $casi_black;
+		margin-bottom: 10px;
+	}
+}
+.divider_bar {
+	background: $barra2 repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height: 13px;
+	margin-top: 25px;
+}
+.cita_blog {
+	background: $barra3 repeat scroll 0 0 rgba(0, 0, 0, 0);
+	padding: 20px;
+	margin-bottom: 55px;
+	p {
+		background: $comillas no-repeat scroll left top rgba(0, 0, 0, 0);
+		padding-left: 35px;
+		padding-top: 15px;
+	}
+}
+.pagination {
+	margin-top: 30px;
+	ul {
+		list-style: none outside none;
+		margin: 0;
+		padding: 0;
+		li {
+			float: left;
+			margin-left: 10px;
+			&:first-child {
+				margin-left: 0;
+			}
+			a {
+				display: block;
+				color: $white;
+				background: $light_orange;
+				padding: 8px 15px;
+				font-family: $bebas;
+				&:hover {
+					background: $rose;
+				}
+			}
+		}
+	}
+}
+
+.category_list {
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+	li a:hover {
+		text-decoration: underline;
+	}
+}
